@@ -1,4 +1,7 @@
-  (require "pry")
+require('sinatra')
+require('sinatra/reloader')
+require('pry')
+
 
   class Fixnum
     define_method(:coin_app) do
