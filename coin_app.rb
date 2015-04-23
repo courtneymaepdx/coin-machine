@@ -3,7 +3,7 @@ class Fixnum
     change = self
     quarters = []
     counter = 0
-    until change. < (25)
+   until change. < (25)
       change = change.-(25)
       counter = counter.+(1)
     end
@@ -11,4 +11,4 @@ class Fixnum
 
 
   end
-end     
+end
